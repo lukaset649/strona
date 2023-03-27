@@ -17,6 +17,7 @@ header{
     color: #ffffff;
     padding-top: 20px;
     min-height: 70px;
+    padding-bottom: 10px;
 }
 
 nav{
@@ -114,13 +115,12 @@ nav li a:hover:not(.active) {
 /* SHOWCASE*/
 
 #showcase{
-    margin-top: 20px;
+    margin-top: 55px;
 }
 
 .box{
     float:left;
     width: 30%;
-    min-height: 300px;
     padding:15px;
     text-align: center;
 }
@@ -136,4 +136,14 @@ footer{
     background-color: #e8491d;
     text-align: center;
     font-size:13px;
+}
+
+@media screen and (max-width: 1200px) {
+    .box{
+        float:none;
+        margin: auto;
+        margin-bottom: 25px;
+        border: #e8491d 3px solid;
+        width: 75%;
+    }
 }
